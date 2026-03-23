@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eier-Uhr-App</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <link rel="manifest" href="manifest.json" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="application-name" content="Eieruhr" />
+    <meta name="apple-mobile-web-app-title" content="Eieruhr" />
+    <meta name="theme-color" content="#262626" />
+    <meta name="msapplication-navbutton-color" content="#262626" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+  </head>
+  <body class="background-dark">
+    <div>
+      <img src="img/menu.png" />
+    </div>
+    <div class="center margin-top">
+      <img src="img/egg.png" />
+    </div>
+    <div class="center margin-top timer" id="timer">05 : 00</div>
+    <div class="center margin-top">
+      <img onclick="startTimer()" src="img/button.png" />
+    </div>
+  </body>
+</html>
