@@ -1,0 +1,10 @@
+{
+  "name": "Meine Eier-Uhr",
+  "theme_color": "#262626",
+  "background_color": "#262626",
+  "short_name": "Eieruhr",
+  "display": "fullscreen",
+  "orientation": "portrait",
+  "lang": "de",
+  "dir": "auto"
+}
